@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans';
+
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(279, 68%, 19%, 0.678), hsla(324, 35%, 50%, 0.607));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(279, 68%, 19%, 0.678), hsla(324, 35%, 50%, 0.607)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px ;
+}
+nav > a:hover{
+    text-decoration: underline;
+    
+}
