@@ -11,7 +11,7 @@ body{
 header{
     width: 100%;
     height: 400px;
-    background: #ad5389;  /* fallback for old browsers */
+    background: #609149;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(279, 68%, 19%, 0.678), hsla(324, 35%, 50%, 0.607));  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, hsla(279, 68%, 19%, 0.678), hsla(324, 35%, 50%, 0.607)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
@@ -54,6 +54,6 @@ header .texto-header{
 }
 .wave{
     position: absolute;
-    bottom: 0;
+    bottom: 1;
     width: 100%;
 }
